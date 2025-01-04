@@ -41,11 +41,11 @@
 
 
 
-v = 1
+
+
 num = int(input('숫자 하나를 입력하세요'))
-for n in range(10):
-    print(num*v)
-    v = v + 1
+for n in range(1,10):
+    print(num, " * ", n, " = ", num*n)
 
 
 
@@ -57,4 +57,5 @@ for n in range(10):
 #출력:Q
 #사용자입력:z <-넘어가지 않음
 #사용자입력:q<-다음 문제 w가 출력됨
+
 
