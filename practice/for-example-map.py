@@ -1,4 +1,5 @@
 ## 1부터 10까지 출력한다.
+import random
 
 #for i in range(10):
 #    print(i+1)
@@ -43,9 +44,9 @@
 
 
 
-num = int(input('숫자 하나를 입력하세요'))
-for n in range(1,10):
-    print(num, " * ", n, " = ", num*n)
+###num = int(input('숫자 하나를 입력하세요'))
+###for n in range(1,10):
+###    print(num, " * ", n, " = ", num*n)
 
 
 
@@ -57,5 +58,21 @@ for n in range(1,10):
 #출력:Q
 #사용자입력:z <-넘어가지 않음
 #사용자입력:q<-다음 문제 w가 출력됨
+
+
+print(chr(65))
+print(chr(98))
+
+print("#################################")
+import random
+alphabet = []
+
+for i in range(0,10):
+    alphabet.append(chr(random.randrange(65,91)))
+
+for alpha in alphabet:
+    print(alpha)
+    while user_input !=alpha:
+        user_input = input("")
 
 
